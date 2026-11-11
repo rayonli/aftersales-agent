@@ -1,0 +1,10 @@
+[
+  { "part_no": "E1-BRK-PAD-F", "name": "Front brake pads (set)", "aliases": ["brake pads", "front pads", "pads"], "stock": { "EU": 120, "NA": 40, "AU": 0 }, "next_restock": { "AU": "2026-11-26" } },
+  { "part_no": "E1-CHG-PORT", "name": "Charge port assembly", "aliases": ["charge port", "charging port", "charging socket"], "stock": { "EU": 14, "NA": 6, "AU": 3 }, "next_restock": {} },
+  { "part_no": "E1-CHG-CABLE", "name": "Charging cable (Type 2, 5 m)", "aliases": ["charging cable", "charger cable", "cable"], "stock": { "EU": 60, "NA": 25, "AU": 12 }, "next_restock": {} },
+  { "part_no": "E1-BAT-MOD", "name": "Battery module (cell group)", "aliases": ["battery module", "cell group", "battery cells"], "stock": { "EU": 4, "NA": 0, "AU": 1 }, "next_restock": { "NA": "2026-12-03" } },
+  { "part_no": "E1-BAT-PACK", "name": "Complete battery pack", "aliases": ["battery pack", "battery", "pack"], "stock": { "EU": 2, "NA": 1, "AU": 0 }, "next_restock": { "AU": "2026-12-15" } },
+  { "part_no": "E1-SPR-R", "name": "Rear sprocket", "aliases": ["sprocket", "rear sprocket"], "stock": { "EU": 35, "NA": 18, "AU": 9 }, "next_restock": {} },
+  { "part_no": "E1-MIR-SET", "name": "Mirror set", "aliases": ["mirrors", "mirror"], "stock": { "EU": 22, "NA": 10, "AU": 7 }, "next_restock": {} },
+  { "part_no": "E1-CTRL", "name": "Motor controller", "aliases": ["controller", "motor controller", "inverter"], "stock": { "EU": 3, "NA": 2, "AU": 0 }, "next_restock": { "AU": "2026-12-08" } }
+]

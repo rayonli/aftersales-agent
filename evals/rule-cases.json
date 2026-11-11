@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-11-12",
+  "cases": [
+    { "name": "Battery cell imbalance on a 20-month-old bike is covered", "input": { "vin": "ARCE1ES25A0001842", "component": "battery", "cause": "defect" }, "expect": "covered" },
+    { "name": "Battery below 70% health after 3.5 years and 31,400 km is covered", "input": { "vin": "ARCE1ES23A0000417", "component": "battery", "cause": "wear" }, "expect": "covered" },
+    { "name": "Motor defect at 2 years 10 months in Spain needs evidence review (legal guarantee, past presumption)", "input": { "vin": "ARCE1ES24B0000925", "component": "motor", "cause": "defect" }, "expect": "needs_human" },
+    { "name": "Motor fault after racing in Australia is not covered", "input": { "vin": "ARCE1AU25C0000311", "component": "motor", "cause": "defect", "usage": "competition" }, "expect": "not_covered" },
+    { "name": "Controller fault with non-approved firmware goes to a human", "input": { "vin": "ARCE1US26D0000058", "component": "controller", "cause": "defect" }, "expect": "needs_human" },
+    { "name": "Mirror broken by the same modified bike is unaffected by the modification", "input": { "vin": "ARCE1US26D0000058", "component": "mirrors", "cause": "defect" }, "expect": "covered" },
+    { "name": "Rental fleet bike out of warranty is not covered (no consumer legal guarantee)", "input": { "vin": "ARCE1ES24E0001203", "component": "motor", "cause": "defect" }, "expect": "not_covered" },
+    { "name": "Charge port defect on a new bike is covered", "input": { "vin": "ARCE1ES26F0000212", "component": "charge_port", "cause": "defect" }, "expect": "covered" },
+    { "name": "Worn brake pads are not covered", "input": { "vin": "ARCE1ES26F0000212", "component": "brake_pads", "cause": "wear" }, "expect": "not_covered" },
+    { "name": "Brake pads that cracked early go to a human", "input": { "vin": "ARCE1ES26F0000212", "component": "brake_pads", "cause": "defect" }, "expect": "needs_human" },
+    { "name": "Crash damage is never covered", "input": { "vin": "ARCE1ES26F0000212", "component": "frame", "cause": "crash" }, "expect": "not_covered" },
+    { "name": "Pressure-washed connectors are not covered", "input": { "vin": "ARCE1ES26F0000212", "component": "electronics", "cause": "pressure_washing" }, "expect": "not_covered" },
+    { "name": "Unknown cause means inspection first", "input": { "vin": "ARCE1ES26F0000212", "component": "motor", "cause": "unknown" }, "expect": "needs_diagnosis" },
+    { "name": "Battery smoke is a safety escalation, whatever the coverage", "input": { "vin": "ARCE1ES25A0001842", "component": "battery", "cause": "unknown", "safety_symptom": true }, "expect": "escalate_safety" },
+    { "name": "Worn charging cable: offer a new part", "input": { "vin": "ARCE1ES24B0000925", "component": "charging_cable", "cause": "wear" }, "expect": "offer_replacement" },
+    { "name": "Trail riding is normal use: covered", "input": { "vin": "ARCE1ES26F0000212", "component": "suspension", "cause": "defect", "usage": "trail" }, "expect": "covered" }
+  ]
+}

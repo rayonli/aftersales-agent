@@ -1,0 +1,106 @@
+[
+  {
+    "vin": "ARCE1ES25A0001842",
+    "model": "Arc E1",
+    "owner_type": "consumer",
+    "country": "ES",
+    "delivery_date": "2025-03-10",
+    "mileage_km": 8200,
+    "last_service_date": "2026-03-02",
+    "race_programme": false,
+    "modifications": [],
+    "usage_flags": [],
+    "battery_health_pct": 97,
+    "telemetry_alerts": [
+      { "code": "B12", "first_seen": "2026-10-22", "occurrences_last_30_days": 4, "trend": "rising", "note": "Cell group 7 voltage spread growing on every charge cycle" }
+    ]
+  },
+  {
+    "vin": "ARCE1ES23A0000417",
+    "model": "Arc E1",
+    "owner_type": "consumer",
+    "country": "ES",
+    "delivery_date": "2023-05-02",
+    "mileage_km": 31400,
+    "last_service_date": "2026-05-10",
+    "race_programme": false,
+    "modifications": [],
+    "usage_flags": [],
+    "battery_health_pct": 68,
+    "telemetry_alerts": []
+  },
+  {
+    "vin": "ARCE1ES24B0000925",
+    "model": "Arc E1",
+    "owner_type": "consumer",
+    "country": "ES",
+    "delivery_date": "2024-01-15",
+    "mileage_km": 17650,
+    "last_service_date": "2026-01-08",
+    "race_programme": false,
+    "modifications": [],
+    "usage_flags": [],
+    "battery_health_pct": 92,
+    "telemetry_alerts": []
+  },
+  {
+    "vin": "ARCE1AU25C0000311",
+    "model": "Arc E1",
+    "owner_type": "consumer",
+    "country": "AU",
+    "delivery_date": "2025-08-20",
+    "mileage_km": 5100,
+    "last_service_date": "2026-08-12",
+    "race_programme": false,
+    "modifications": [],
+    "usage_flags": ["competition_use_detected: 14 timed sessions logged at a race circuit since July 2026"],
+    "battery_health_pct": 95,
+    "telemetry_alerts": [
+      { "code": "M04", "first_seen": "2026-09-03", "occurrences_last_30_days": 6, "trend": "stable", "note": "Motor over-temperature during sessions at the circuit" }
+    ]
+  },
+  {
+    "vin": "ARCE1US26D0000058",
+    "model": "Arc E1",
+    "owner_type": "consumer",
+    "country": "US",
+    "delivery_date": "2026-06-15",
+    "mileage_km": 2300,
+    "last_service_date": null,
+    "race_programme": false,
+    "modifications": ["Non-approved motor controller firmware detected on 2026-09-30"],
+    "usage_flags": [],
+    "battery_health_pct": 99,
+    "telemetry_alerts": []
+  },
+  {
+    "vin": "ARCE1ES24E0001203",
+    "model": "Arc E1",
+    "owner_type": "business",
+    "country": "ES",
+    "delivery_date": "2024-06-01",
+    "mileage_km": 22900,
+    "last_service_date": "2025-05-20",
+    "race_programme": false,
+    "modifications": [],
+    "usage_flags": ["Rental fleet bike"],
+    "battery_health_pct": 90,
+    "telemetry_alerts": [
+      { "code": "M04", "first_seen": "2026-10-05", "occurrences_last_30_days": 9, "trend": "rising", "note": "Motor over-temperature on normal road rides" }
+    ]
+  },
+  {
+    "vin": "ARCE1ES26F0000212",
+    "model": "Arc E1",
+    "owner_type": "consumer",
+    "country": "ES",
+    "delivery_date": "2026-02-01",
+    "mileage_km": 3400,
+    "last_service_date": null,
+    "race_programme": false,
+    "modifications": [],
+    "usage_flags": [],
+    "battery_health_pct": 99,
+    "telemetry_alerts": []
+  }
+]

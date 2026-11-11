@@ -1,0 +1,17 @@
+{
+  "name": "aftersales-agent",
+  "version": "1.0.0",
+  "description": "AI-first aftersales agent for an electric motorcycle brand: support, warranty triage, predictive telemetry and human escalation.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test evals/rules.test.js",
+    "chat": "node src/cli.js",
+    "eval": "node evals/run-scenarios.js",
+    "build": "node web/build.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0"
+  },
+  "author": "Luis Rayón",
+  "license": "MIT"
+}

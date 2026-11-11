@@ -1,0 +1,68 @@
+[
+  {
+    "id": "KB-01",
+    "title": "Arc Moto Limited Warranty (commercial warranty)",
+    "tags": ["warranty", "policy", "coverage", "battery", "exclusions"],
+    "body": "Arc Moto covers defects in materials and workmanship on the Arc E1 for 2 years from the delivery date, with unlimited mileage. The battery pack is covered for 5 years or 50,000 km, whichever comes first, including capacity loss below 70% of the original rating. Covered repairs are free of charge for parts and labour at an authorised dealer. Exclusions: wear items (tyres, brake pads and discs, chain and sprockets, grips, footpeg rubbers); damage caused by a crash, fall or impact; competition use, unless the bike is registered in the Arc Race Support Programme; unauthorised modifications, including non-approved software or controller tuning; damage from pressure-washing electrical connectors; and failures caused by missing the mandatory 12-month service. A missed service does not cancel the warranty automatically: it is reviewed case by case. This commercial warranty is in addition to the customer's legal rights and never reduces them."
+  },
+  {
+    "id": "KB-02",
+    "title": "Legal guarantee for consumers (EU and Spain)",
+    "tags": ["warranty", "legal", "guarantee", "eu", "spain", "consumer"],
+    "body": "Consumers in the EU also have a legal guarantee of conformity from the seller, separate from the Arc Moto commercial warranty. The EU minimum is 2 years. In Spain, goods delivered from 1 January 2022 have a 3-year legal guarantee, and a lack of conformity that appears in the first 2 years is presumed to have existed at delivery, so the customer does not have to prove it. After 2 years the customer may need to show the defect existed at delivery. The legal guarantee applies to consumers, not to business buyers such as rental fleets or dealers. Questions about legal rights outside the EU, or disputes, are escalated to the warranty team. This summary is guidance for the support team, not legal advice."
+  },
+  {
+    "id": "KB-03",
+    "title": "How to open a warranty claim",
+    "tags": ["warranty", "claim", "process", "photos", "vin"],
+    "body": "To open a claim we need: the VIN (17 characters, on the steering head and in the app), current mileage, a description of the symptom and when it started, any warning code shown on the dash, and photos or a short video of the affected part. Claims are decided against the warranty rules; when the cause is unclear the bike is booked for an inspection at the nearest authorised dealer, and the decision is made after diagnosis. Customers never pay for a diagnosis that confirms a covered defect."
+  },
+  {
+    "id": "KB-04",
+    "title": "Dash warning codes",
+    "tags": ["warning", "codes", "battery", "motor", "charger", "telemetry", "dash"],
+    "body": "B12 Battery cell imbalance: the bike can be ridden, but book a battery check within 2 weeks; repeated B12 events can lead to reduced range. B30 Battery over-temperature: stop riding, switch off and let the bike cool in a safe open space; do not charge; contact support immediately. M04 Motor temperature high: reduce load and let the motor cool; if it repeats on normal riding, book an inspection. C21 Charger communication fault: try another socket and check the charging cable for damage; if the code stays, the charger or the charge port may need replacing. S01 Brake sensor fault: ABS may be disabled; ride carefully to the nearest dealer or request a pick-up."
+  },
+  {
+    "id": "KB-05",
+    "title": "Safety-critical issues",
+    "tags": ["safety", "brakes", "battery", "smoke", "swelling", "steering", "escalation"],
+    "body": "Treat as safety-critical: any battery smell, smoke, swelling or code B30; brake failure, spongy brakes or code S01; steering or suspension failures; and loose structural parts. Tell the rider to stop riding and keep away from the bike if the battery is involved, and escalate the case to a human at priority P1 straight away. Do not troubleshoot safety-critical issues remotely."
+  },
+  {
+    "id": "KB-06",
+    "title": "Service schedule",
+    "tags": ["service", "maintenance", "interval", "schedule"],
+    "body": "The Arc E1 needs a mandatory service every 12 months or 10,000 km, whichever comes first. It includes a battery health check, firmware update, brake fluid check, chain tension and wear, suspension check and a test ride. Riders can book through the app or any authorised dealer. Between services, riders should check tyre pressure and chain tension every 2 weeks."
+  },
+  {
+    "id": "KB-07",
+    "title": "Charging troubleshooting",
+    "tags": ["charging", "charger", "range", "battery", "c21"],
+    "body": "If the bike does not charge: check the socket with another device, inspect the cable and plug for damage, make sure the battery temperature is between 0 and 45 C, and restart the bike. Code C21 points to the charger or the charge port. Range below expectations is normal in cold weather (up to 20% less below 5 C) and with aggressive riding modes. A battery that cannot reach 100% after a full night of charging should be checked by a dealer."
+  },
+  {
+    "id": "KB-08",
+    "title": "Parts ordering for dealers",
+    "tags": ["parts", "dealer", "order", "eta", "stock", "self-service"],
+    "body": "Dealers order parts through the Arc dealer portal. Parts in stock at the regional warehouse ship within 1 working day; standard delivery takes 2 to 4 working days in Europe and 3 to 5 in North America and Australia. Back-ordered parts show an expected date in the portal. Warranty parts are ordered against an approved claim number, so the claim must be approved first."
+  },
+  {
+    "id": "KB-09",
+    "title": "Low-value accessories out of warranty",
+    "tags": ["accessories", "replacement", "charger cable", "mirror", "goodwill", "out of warranty"],
+    "body": "For low-value accessories out of warranty (charging cable, mirrors, levers, grips), offer a new part instead of a repair: it is usually faster and cheaper for the customer and comes with its own 2-year parts warranty. Goodwill repairs for bikes just outside warranty (up to 3 months) with a full service history can only be approved by the warranty team."
+  },
+  {
+    "id": "KB-10",
+    "title": "Washing and water",
+    "tags": ["washing", "water", "cleaning", "ip", "connectors"],
+    "body": "The Arc E1 is rated IP67 and can be ridden in rain and through water up to the footpegs. Wash it with a low-pressure hose and mild soap. Do not point a pressure washer at the charge port, battery connectors or motor controller: water forced into connectors is not covered by the warranty."
+  },
+  {
+    "id": "KB-11",
+    "title": "Competition use and the Race Support Programme",
+    "tags": ["competition", "race", "track", "motocross", "racing", "warranty"],
+    "body": "Racing or timed track use is not covered by the commercial warranty, because loads are much higher than normal riding. Bikes registered in the Arc Race Support Programme keep warranty cover on the battery and motor, with a shorter service interval of 50 hours. Recreational off-road riding on trails is normal use and is covered."
+  }
+]
