@@ -4,7 +4,9 @@ A working prototype of an AI-first aftersales desk for an electric motorcycle br
 
 I built it as part of my application to Stark Future's aftersales role. **Arc Moto, its bikes, customers and warranty policy are fictional**; the policy is modelled on EU and Spanish consumer law, which I applied for years as a Genius at Apple (I wrote the warranty decision playbook my store adopted).
 
-**Live demo:** published as a Claude artifact (link in my application). It runs on the viewer's own Claude account.
+**[▶ Try the live demo](https://claude.ai/artifact/MV6ZPGQy3VjU5eoqrp8hxH)**
+
+The chat runs on the visitor's own Claude account, so sign in to claude.ai to talk to the agent; the first message asks you to allow it. Without an account you can still browse the test fleet and run the warranty rule tests in the page. Good scenarios to try: *Safety*, *Battery claim* and *Legal guarantee*.
 
 ## Design decisions
 
